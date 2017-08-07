@@ -1,8 +1,11 @@
 ---
+title: Jenkins Shared Groovy Library Integration Testing
+date: 2017-08-07 00:00:00 Z
+categories:
+- jenkins
 layout: single
-title:  "Jenkins Shared Groovy Library Integration Testing"
-categories: jenkins
 ---
+
 I've been playing with [JenkinsPipelineUnit](https://github.com/lesfurets/JenkinsPipelineUnit) for testing my shared groovy library in Jenkins, but found that it wasn't quite filling the niche that I wanted. Unit tests are good, but I needed to know if a new custom step would play nicely with our plugins, whether a new plugin would play nicely with our shared library, or whether a new entire jenkins version would play nicely with our shared library. With that in mind, I decided to look at how traditional plugins do integration testing.
 
 I ended up slowly stumbling into [the unit testing wiki page for Jenkins](https://wiki.jenkins.io/display/JENKINS/Unit+Test), and realized that this test harness was probably the best way forward. I needed to be able to...

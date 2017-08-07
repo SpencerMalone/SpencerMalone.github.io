@@ -1,7 +1,8 @@
 ---
+title: Blog Posts!
 layout: archive
-title:  "Blog Posts!"
 ---
+
 <ul>
   {% for post in site.posts %}
     <li>

@@ -1,7 +1,8 @@
 ---
+title: Jenkins Posts!
 layout: archive
-title:  "Jenkins Posts!"
 ---
+
 <ul>
   {% for post in site.posts %}
     {% if post.categories contains 'jenkins' %}
