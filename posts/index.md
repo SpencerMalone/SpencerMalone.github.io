@@ -2,7 +2,7 @@
 layout: archive
 title:  "Blog Posts!"
 ---
-<ul>     test
+<ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
