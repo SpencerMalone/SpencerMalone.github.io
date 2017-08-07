@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Posts"
-    url: http://spencermalone.com/_pages/posts/
+    url: /posts/
   # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  #   url: /_pages/about/
+  - title: "Jenkins"
+    url: /jenkins/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
