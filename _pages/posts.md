@@ -1,3 +1,7 @@
+---
+layout: single
+title:  "Blog Posts!"
+---
 <ul>
   {% for post in site.posts %}
     <li>
